@@ -1,0 +1,15 @@
+import java.util.Scanner;
+import java.lang.String;
+class c1{
+    public static void main(String[] args)
+    {
+    String s1,s2;
+    Scanner scan=new Scanner(System.in);
+    System.out.println("Enter first string");
+    s1=scan.nextLine();
+    System.out.println("Enter second string");
+    s2=scan.nextLine();
+    StringBuilder sb=new StringBuilder(s1.concat(s2));
+    System.out.println("concatenated string in lowercase:" + sb.toString().toLowerCase());
+}
+}
