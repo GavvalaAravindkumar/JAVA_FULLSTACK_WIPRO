@@ -1,0 +1,22 @@
+public class WrapperExample {
+    public static void main(String[] args) {
+        System.out.println("Interger Range:");
+        System.out.println("Minimum Integer Value: " + Integer.MIN_VALUE);
+        System.out.println("Maximum Integer Value: " + Integer.MAX_VALUE);
+        System.out.println("Double Range:");
+        System.out.println("Minimum Double Value: " + Double.MIN_VALUE);
+        System.out.println("Maximum Double Value: " + Double.MAX_VALUE);
+        System.out.println("Long Range:");
+        System.out.println("Minimum Long Value: " + Long.MIN_VALUE);
+        System.out.println("Maximum Long Value: " + Long.MAX_VALUE);
+        System.out.println("Short Range:");
+        System.out.println("Minimum Short Value: " + Short.MIN_VALUE);
+        System.out.println("Maximum Short Value: " + Short.MAX_VALUE);
+        System.out.println("Byte Range:");
+        System.out.println("Minimum Byte Value: " + Byte.MIN_VALUE);
+        System.out.println("Maximum Byte Value: " + Byte.MAX_VALUE);
+        System.out.println("Float Range:");
+        System.out.println("Minimum Float Value: " + Float.MIN_VALUE);
+        System.out.println("Maximum Float Value: " + Float.MAX_VALUE);
+    }
+}
